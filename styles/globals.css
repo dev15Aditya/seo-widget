@@ -24,3 +24,77 @@ a {
     background: black;
   }
 }
+
+/* SEOChecker.css */
+
+.seo-checker-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.seo-checker-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.seo-data h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Input field */
+.seo-checker-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Analyze button */
+.seo-checker-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.seo-checker-container button:hover {
+  background-color: #0056b3;
+}
+
+/* SEO results section */
+.seo-data {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Styling for preformatted JSON output */
+.seo-data pre {
+  overflow-x: nowrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .seo-checker-container {
+    max-width: 100%;
+  }
+}
