@@ -11,3 +11,4 @@ Use the SEOChecker component in your application and provide a UI to input the U
 When the "Analyze" button is clicked, the component will send a POST request to the DataforSEO API to analyze the specified URL.
 
 The analysis results will be displayed in a structured JSON format.
+# seo-widget
